@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<c:set var="pageTitle" value="LIST"></c:set>
+<c:set var="pageTitle" value="FAQ Answer"></c:set>
 <%@ include file="../common/head.jspf"%>
 
 	<div style="margin-right: auto; margin-bottom: 10px; font-size: 1.2rem;">검색된 FAQ 수 : ${totalCount }개</div>
